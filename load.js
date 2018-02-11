@@ -1,4 +1,7 @@
-const fs = require('fs');
+if __name__ == '__main__':
+import config
+client.run(config.token)
+constconst fs = require('fs');
 module.exports = (client, callback) => {
   let commandList = fs.readdirSync('./commands/');
   client.commandRegex = [];
