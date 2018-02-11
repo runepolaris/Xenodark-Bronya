@@ -1,6 +1,4 @@
-if __name__ == '__main__':
-import config
-client.run(config.token)
+var auth = require('./config.py');
 constconst fs = require('fs');
 module.exports = (client, callback) => {
   let commandList = fs.readdirSync('./commands/');
