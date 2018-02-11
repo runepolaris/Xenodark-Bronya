@@ -2,19 +2,19 @@ const Discord = require("discord.js");
 const client = { embed: { color: 0x683b62 }};
 let temp;
 client.bot = new Discord.Client();
-if (!process.env.MashuBot) {
+if (!process.env.BronyaBot) {
   temp = require('./config.json');
   apiai = temp.apiai;
   client.token = temp.token;
-  client.prefix = "hey mashu, ";
+  client.prefix = "hey bronya, ";
   client.selfbot = true;
-  client.embed.author = { name: "Mashu Kyrielight" };
-  client.embed.footer = { text: "Mashu Selfbot - designed by Aister" };
+  client.embed.author = { name: "Xenodark Bronya" };
+  client.embed.footer = { text: "Bronya Selfbot - designed by Aister and runepolaris" };
 }
 else {
-  client.token = process.env.MashuBot;
+  client.token = process.env.BronyaBot;
   apiai = process.env.ApiAi;
-  client.prefix = "mashu, ";
+  client.prefix = "bronya, ";
   client.selfbot = false;
 }
 client.load = require('./load.js');
@@ -27,7 +27,7 @@ client.load(client, () => {
   console.log('Logging in Discord...');
   client.bot.on('ready', () => {
     taken = Date.now() - time;
-    console.log(`Mashu is ready, senpai! Logging in took me ${taken}ms`); });
+    console.log(`Bronya, ready on your command! Logging in took ${taken}ms`); });
   client.bot.on('disconnect', () => {
     time = Date.now();
   })
@@ -62,14 +62,14 @@ client.load(client, () => {
     }
 
     if (!content.startsWith(client.prefix)) {
-      if (content.match(/thx,? mashu|thanks,? mashu|thank you,? mashu/g)) {
-        message.send("You're welcome senpai.", "smile");
-      } else if (content.match(/it's ok,? mashu/g)) {
-        message.send("I'll try better next time, senpai");
-      } else if (content.match(/\bright,? mashu\b/g)) {
-        message.send("Yes, senpai.");
-      } else if (content.match(/good job,? mashu|gj,? mashu|nice,? mashu/g)) {
-        message.send("Thank you senpai. I will try my best!", "embarassed");
+      if (content.match(/thx,? bronya|thanks,? bronya|thank you,? bronya/g)) {
+        message.send("You're welcome, Captain...", "smile");
+      } else if (content.match(/it's ok,? bronya/g)) {
+        message.send("Bronya try better next time...");
+      } else if (content.match(/\bright,? bronya\b/g)) {
+        message.send("Yes, Captain.");
+      } else if (content.match(/good job,? bronya|gj,? bronya|nice,? bronya/g)) {
+        message.send("Thank you, Captain. Bronya will try her best!", "embarassed");
       }
       return;
     }
