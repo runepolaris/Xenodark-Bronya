@@ -1,12 +1,10 @@
-# MashuBot
+# BronyaBot
 MashuBot is an open source discord bot made in Node.js. This bot was made as an experiment in making a pseudo-AI bot which will be able to detect what the user want and reply with the appropriate content.
 
-For bot support, or suggestion, please join [Our Discord server](http://discord.gg/VcYEefZ)
-
-Thanks to Paiko Shi for the emotion edits!
+Thanks to Paiko Shi for the emotion edits and thanks for Aiester for providing the base codes for Bronya!
 
 ## Command List
-MashuBot's prefix is `mashu,` (case-insensitive) and should be included at the start of every messages if you want mashu to respond. Some other "commands" which doesn't use the prefixes will be listed under [Special Commands](#special).
+MashuBot's prefix is `bronya,` (case-insensitive) and should be included at the start of every messages if you want mashu to respond. Some other "commands" which doesn't use the prefixes will be listed under [Special Commands](#special).
 
 All the commands are case-insensitive
 
@@ -16,12 +14,10 @@ All the commands are case-insensitive
 - [Search](#search)
 - [Repeat](#repeat)
 - [My Profile](#my-profile)
-- [Servant Info](#servant-info)
+- [Servant Info](#valkyrie-info)
 - [Invite](#invite)
-- [Daily Quest](#daily-quest)
-- [Master Quest](#master-quest)
 - [Time](#time)
-- [Twitter](#twitter)
+- [Facebook](#facebook)
 - [Translate](#translate)
 - [Stat](#stat)
 
@@ -29,29 +25,29 @@ All the commands are case-insensitive
 ### You there?
 Pretty much a ping, checking if the bot is still responding normally.
 ```
-Mashu, are you there?
+Bronya, are you there?
 ```
 
 ### Selfie
-This command will search on safebooru a picture of our beloved Mashu. Because no one has enough mashu pics, amiright?
+This command will search on safebooru a picture of our beloved Bronya. Because no one has enough m pics, amiright?
 
 ### Timer
 This command will **start** or **stop** the timer for you. Just include in your message (along with the prefix and the command name) the word *start* to start the timer, or *stop* to stop it. For example:
 ```
-Mashu, can you start the timer for me please?
-Mashu, I'm done! Stop the timer!
+Bronya, can you start the timer for me please?
+Bronya, I'm done! Stop the timer!
 ```
 
 ### Search
-Mashu will search on google for you. The search terms should be wrapped inside quotation marks.
+Bronya will search on google for you. The search terms should be wrapped inside quotation marks.
 ```
-Mashu, can you search "Aister Github"? I lost the link
+Bronya, can you search "Rune Github"? I lost the link
 ```
 
 ### Repeat
-Mashu will repeat after you. She's a nice girl, isn't she? Don't force her to say lewd things tho. The sentence you want her to repeat should be put inside quotation marks.
+Bronya will repeat after you. She's a nice girl, isn't she? Don't force her to say lewd things tho. The sentence you want her to repeat should be put inside quotation marks.
 ```
-Mashu, repeat after me: "Aister is my one and only Master"
+Bronya, repeat after me: "Rune is my one and only Captain"
 ```
 
 ### My Profile
