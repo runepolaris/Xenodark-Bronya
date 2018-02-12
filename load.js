@@ -6,12 +6,11 @@ module.exports = (client, callback) => {
   client.commands = {};
 
   client.emote = { 
-    "default": "http://i.imgur.com/gahpkzl.png", 
-    "serious": 
-    "http://i.imgur.com/a30T4gX.png", 
-    "embarassed": "http://i.imgur.com/Net4Qyq.png", 
-    "flustered": "http://i.imgur.com/VEWDYD5.png", 
-    "smile": "http://i.imgur.com/lvSSKGX.png" 
+    "default": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-10_thumb.png", 
+    "serious": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-11_thumb.png",
+    "embarassed": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/02/bronya-one-year-anniversary_thumb.png", 
+    "flustered": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-10_thumb.png", 
+    "smile": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Bronya-12_thumb.png" 
   }
 
   loadTime = Date.now();
